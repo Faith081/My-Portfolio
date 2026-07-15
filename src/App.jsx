@@ -6,7 +6,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Journey from "./components/Journey";
 import Contact from "./components/Contact";
-
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
@@ -20,8 +20,7 @@ function App() {
       <Projects />
       <Journey />
       <Contact />
-
-
+      <Resume />
       <Footer />
     </>
   );

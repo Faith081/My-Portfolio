@@ -50,7 +50,7 @@ function Hero() {
 
           </p>
 
-          <div className="flex gap-5 mt-10">
+          <div className="flex flex-wrap gap-5 mt-10">
 
             <a
               href="#projects"
@@ -60,10 +60,11 @@ function Hero() {
             </a>
 
             <a
-              href="#contact"
-              className="border border-blue-500 px-7 py-4 rounded-xl hover:bg-blue-600"
+              href="/Faith_Samuel_CV.pdf"
+              download
+              className="border border-blue-500 px-7 py-4 rounded-xl hover:bg-blue-600 transition"
             >
-              Hire Me
+              Download CV
             </a>
 
           </div>

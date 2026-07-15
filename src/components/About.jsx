@@ -15,20 +15,7 @@ function About() {
           About Me
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <img
-              src="/profile.jpg"
-              alt="Faith Samuel"
-              className="rounded-3xl shadow-xl"
-            />
-          </motion.div>
+        <div className="max-w-4xl mx-auto">
 
           <motion.div
             initial={{ opacity: 0, x: 50 }}
